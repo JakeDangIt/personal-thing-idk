@@ -1,11 +1,9 @@
 .celeste__header {
     display: flex;
     flex-direction: row;
-}
-
-#home {
     padding: 2rem 6rem;
 }
+
 
 .celeste__header-content {
     flex: 1.5;
@@ -107,7 +105,7 @@
 }
 
 .celeste__header-image img {
-    width: 75%;
+    width: 72%;
 }
 
 @media screen and (max-width: 1050px) {
@@ -144,6 +142,10 @@
 }
 
 @media screen and (max-width: 490px){
+
+    .celeste__header {
+        padding: 2rem 3rem;
+    }
 
     .celeste__header-content h1 {
         font-size: 36px;

@@ -5,7 +5,7 @@ import wallpaper from '../../assets/celeste wallpaper.jpg'
 
 const Header = () => {
   return (
-    <div className='celeste__header section__padding' id='home'>
+    <div className='section__padding celeste__header' id='home'>
       <div className='celeste__header-content'>
         <h1 className='gradient__text'>Celeste, the Award-Winning Platformer</h1>
 
