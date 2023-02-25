@@ -1,0 +1,155 @@
+.celeste__header {
+    display: flex;
+    flex-direction: row;
+}
+
+#home {
+    padding: 2rem 6rem;
+}
+
+.celeste__header-content {
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin: 2rem;
+}
+
+.celeste__header-content h1 {
+    font-family: var(--font-family);
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.celeste__header-content p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 35px;
+
+    color: var(--color-text);
+    margin-top: 1rem;
+}
+
+.celeste__header-content_input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+}
+
+.celeste__header-content_input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    background: var(--color-footer);
+    border: var(--color-footer) 2px solid;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0 1rem;
+    outline: none;
+
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+.celeste__header-content_input button {
+
+    flex: 0.6;
+    width: 100%;
+
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 27px;
+    min-height: 50px;
+
+    color: #fff;
+    background: #62C2E0;
+    border-radius: 0px 5px 5px 0px;
+
+    padding: 0 1rem;
+
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.celeste__header-content_people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+.celeste__header-content_people img {
+    height: 60px;
+}
+
+.celeste__header-content_people p {
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 20px;
+    line-height: 69.72px;
+
+    text-align: center;
+    color: #fff;
+    margin: 0 0 0 1rem;
+}
+
+.celeste__header-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.celeste__header-image img {
+    width: 75%;
+}
+
+@media screen and (max-width: 1050px) {
+    .celeste__header {
+        flex-direction: column;
+    }
+
+    .celeste__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+    .celeste__header-content h1 {
+        font-size: 45px;
+    }
+    .celeste__header-content p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .celeste__header-content_people {
+        flex-direction: column;
+    }
+    .celeste__header-content_people p {
+        margin: 0;
+    }
+
+    .celeste__header-content_input input,
+    .celeste__header-content_input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px){
+
+    .celeste__header-content h1 {
+        font-size: 36px;
+    }
+    .celeste__header-content p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
