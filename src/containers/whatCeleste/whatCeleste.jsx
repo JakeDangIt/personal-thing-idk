@@ -3,7 +3,7 @@ import React from 'react';
 
 const whatCeleste = () => {
   return (
-    <div>
+    <div className='celeste__whatCeleste'>
       whatCeleste
     </div>
   )

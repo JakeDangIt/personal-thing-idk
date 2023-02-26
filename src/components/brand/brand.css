@@ -1,0 +1,22 @@
+.celeste__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.celeste__brand div{
+    flex: 1;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celeste__brand img {
+    width: 100px;
+    height: 100px;
+    opacity: 60%;
+    filter: saturate(35%);
+}
