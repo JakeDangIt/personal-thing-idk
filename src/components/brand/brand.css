@@ -3,11 +3,15 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    margin: auto;
+    width: 80vw;
 }
 
 .celeste__brand div{
     flex: 1;
     margin: 1rem;
+    
 
     display: flex;
     justify-content: center;
@@ -15,8 +19,20 @@
 }
 
 .celeste__brand img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     opacity: 60%;
     filter: saturate(35%);
+    background-color: black;
+    border: 7px black solid;
+    border-radius: 5px;
+    
+
+    transition: 100ms;
+}
+
+.celeste__brand img:hover {
+    filter: saturate(80%) opacity(100%);
+    transform: scale(110%) ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
