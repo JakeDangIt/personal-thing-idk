@@ -1,0 +1,33 @@
+.celeste__whatCeleste {
+    padding: 2rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% 57%, rgba(18, 36, 86, 1) 38%, rgba(51, 75, 114, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% 57%, rgba(18, 36, 86, 1) 38%, rgba(51, 75, 114, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% 57%, rgba(18, 36, 86, 1) 38%, rgba(51, 75, 114, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% 57%, rgba(18, 36, 86, 1) 38%, rgba(51, 75, 114, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% 57%, rgba(18, 36, 86, 1) 38%, rgba(51, 75, 114, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px black);
+}
+
+.celeste__whatCeleste-feature {
+    display: flex;
+}
+
+.celeste__whatCeleste-feature .celeste__features-container__feature {
+    margin: 0;
+}
+
+.celeste__whatCeleste-feature .celeste__features-container__feature-text {
+    max-width: 700px;
+}

@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
         <div className='celeste__navbar-links_container'>
           <p><a href='#home'>Home</a></p>
-          <p><a href='#gameplay'>Gameplay</a></p>
+          <p><a href='#whatCeleste'>What is Celeste?</a></p>
           <p><a href='#mechanics'>Mechanics</a></p>
           <p><a href='#speedrunning'>Speedrunning</a></p>
           <p><a href='#purchase'>Purchase</a></p>
