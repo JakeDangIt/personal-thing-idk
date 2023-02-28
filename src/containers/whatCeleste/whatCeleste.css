@@ -31,3 +31,33 @@
 .celeste__whatCeleste-feature .celeste__features-container__feature-text {
     max-width: 700px;
 }
+
+.celeste__whatCeleste-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.celeste__whatCeleste-heading h1 {
+    font-family: var(--font-family);
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.celeste__whatCeleste-heading p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.celeste__features-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 3rem;
+}

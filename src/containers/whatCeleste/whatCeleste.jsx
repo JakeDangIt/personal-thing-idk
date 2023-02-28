@@ -9,14 +9,14 @@ const whatCeleste = () => {
         <Feature />
       </div>
       <div className='celeste__whatCeleste-heading'>
-        <h1 className='gradient-text'>
-          Impressively intuitive response to your touch
+        <h1 className='gradient__text'>
+          Impressively intuitive response to your touch and some more words that describe the game
         </h1>
         <p>
           Explore the gameplay
         </p>
       </div>
-      <div className='celeste__whatCeleste-container'>
+      <div className='celeste__features-container'>
         <Feature />
         <Feature />
         <Feature />
